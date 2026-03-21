@@ -4,17 +4,19 @@ inventario = []
 # Esta función sirve para agregar productos al inventario
 def agregar_productos():
     
+    print("===Agregue un producto===")
     
     # Valida nombre del producto    
     while True:
         nombre = input("ingrese el nombre del producto: ")
         # Revisa que solo tenga letras
-        if nombre.replace(" ", "").isalpha() or len(nombre) == 0:
-            print("nombre válido.")
-            break
-        else:
+        if not nombre.replace(" ", "").isalpha() or len(nombre) == 0:
             print("Error: solo se permiten letras.")
-
+            continue
+        
+        else:
+            print("nombre válido")
+        break
     # Valida que el precio sea un número válido 
     while True:
         try:
@@ -49,7 +51,7 @@ def agregar_productos():
     } 
     # Agrega el producto a la lista inventario
     inventario.append(productos)
-    print("el producto fue agregado") 
+    print("---el producto fue agregado---") 
     return inventario
   
 
@@ -58,9 +60,9 @@ def mostrar_inventario():
 
     # Verifica si el inventario está vacío
     if not inventario:
-        print("El inventario esta vacío")
+        print("---El inventario esta vacío---")
     else:
-        print("Inventario: ")
+        print("===Inventario===")
 
         # Recorre la lista y muestro cada producto
         for prod in inventario:
