@@ -177,8 +177,11 @@ Se usan try/except para evitar que el programa se cierre por errores
 Siempre se muestran mensajes claros al usuario
 
 ## Diagrama de flujo
-
 ![alt text](diagrama.drawio.png)
+
+
+<img width="910" height="561" alt="subflujo" src="https://github.com/user-attachments/assets/40697aa0-89ff-46aa-b12a-acc0df9bee7b" />
+
 
 
 ## Estado
