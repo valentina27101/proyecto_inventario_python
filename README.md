@@ -13,7 +13,7 @@ Finalmente, el sistema muestra la información como una pequeña factura en la p
 ## Requisitos
 
 - Python 3
-- Librería Colorama
+
 
  ### Instalación de Python
  ---
@@ -47,27 +47,6 @@ Instala Python siguiendo estos pasos:
 6. Esperar a que termine la instalación.
    
 Cuando termina la instalación, Python ya queda listo para usarse en el computador.
-
----
-### Instalar la librería Colorama
-El programa usa una librería llamada Colorama.
-
----
-
-##### Para que sirve?
-Colorama sirve para mostrar texto con colores en la consola, para que el programa sea más visual.
-
----
-
-##### Cómo instalar Colorama?
-1. Abrir la terminal dentro de Visual Studio Code.
-2. Luego escribimos este comando:
-   ```pip install colorama```
-
-Después presionamos Enter.
-Si todo sale bien, la librería quedará instalada y lista para usar en el programa.
-
----
 
 ### Como abrir la terminal
 Si es windowns (Windowns + R)
