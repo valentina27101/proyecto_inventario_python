@@ -178,7 +178,7 @@ Siempre se muestran mensajes claros al usuario
 
 ## Diagrama de flujo
 
-![alt text](diagrama_flujo.drawio.png)
+![alt text](diagrama.drawio)
 
 
 ## Estado
